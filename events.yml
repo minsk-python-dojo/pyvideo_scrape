@@ -1,69 +1,47 @@
-repo_dir: ~/git/pyvideo_data
+repo_dir: ../data
 
 events:
 
-# Copy the event template here and adapt to the event parameters
-
-
-
-# Only repo_dir: and events: are loaded
-
-# =============================================================================
-event_template:
-
-- title: PyConxxx2019
-  dir: pyconxxx
+- title: Minsk Python Meetup
+  dir: minsk-python-meetup
   youtube_list:
-    - xxx
+    - https://www.youtube.com/playlist?list=PLjiAaL1HtGPaMPlrZGCDzUCTsVAyTbHJ4
+    - https://www.youtube.com/playlist?list=PLjiAaL1HtGPb8U9f0QPOQXcbJaR8atAPR
+    - https://www.youtube.com/playlist?list=PLjiAaL1HtGPalbm2NI4ZTyGQgisC2l9ci
+    - https://www.youtube.com/playlist?list=PLjiAaL1HtGPZ_FMcput9vP32hZ48TCYMG
+    - https://www.youtube.com/playlist?list=PLjiAaL1HtGPYadniXqciY8c8DUCyV-1xU
+    - https://www.youtube.com/playlist?list=PLjiAaL1HtGPY3c3odkiXkFD0XuxvQc2Gf
+    - https://www.youtube.com/playlist?list=PLjiAaL1HtGPboVADzNr2_WdSX3Jte5lG9
   related_urls:
-  - label: Conference schedule
-    url: xxx
-  language: eng
-  dates:
-    begin: xxx
-    end: xxx
-    default: xxx
-  issue: xxx
-  minimal_download: true
-  overwrite:
+  - label: Telegram
+    url: https://t.me/minsk_python
+  - label: GitHub
+    url: https://github.com/minskpython
+  - label: Facebook
+    url: https://www.facebook.com/MinskPythonMeetup
+  - label: Minsk Coding Dojo
+    url: https://github.com/minsk-python-dojo
+  language: rus
+#   dates:
+#     begin: 2013-01-01
+#     end: 2019-12-31
+#     default: 2019-12-31
+  issue: 911
+  minimal_download: false
+  # overwrite:
     # all: true # takes precedence over add_new_files and existing_files_fields
-    add_new_files: true
-    existing_files_fields:
-      - copyright_text
-      - duration
-      - thumbnail_url
-      - videos
-
-      - description
-      - language
-      - recorded
-      - related_urls
-      - speakers
-      - tags
-      - title
+    # add_new_files: true
+    # existing_files_fields:
+    # - copyright_text
+    # - duration
+    # - thumbnail_url
+    # - videos
+    # 
+    # - description
+    # - language
+    # - recorded
+    # - related_urls
+    # - speakers
+    # - tags
+    # - title
   tags:
-
-# ISO_639-3 language codes https://en.wikipedia.org/wiki/ISO_639-3
-
-# languages = {
-#     'ita': 'Italian',
-#     'zho': 'Chinese',
-#     'por': 'Portuguese',
-#     'ukr': 'Ukrainian',
-#     'deu': 'German',
-#     'eng': 'English',
-#     'rus': 'Russian',
-#     'fra': 'French',
-#     'spa': 'Spanish',
-#     'eus': 'Basque',
-#     'cat': 'Catalan',
-#     'glg': 'Galician',
-#     'kor': 'Korean',
-#     'lit': 'Lithuanian',
-#     'jpn': 'Japanese',
-#     'ces': 'Czech',
-#     'pol': 'Polish',
-#     'heb': 'Hebrew',
-#     'tha': 'Thai',
-# }
-
